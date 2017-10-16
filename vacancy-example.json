@@ -1,0 +1,36 @@
+{
+  "id": "1",
+  "created_at": "2017-10-16 10:30:50",
+  "updated_at": "2017-10-16 10:30:50",
+  "estabilishment_id": "1",
+  "payment_amount": "",
+  "payment_extra": "Quarterly bonus (up to 20% of salary each quarter)",
+  "journey": "8 hours per day",
+  "active": "active", //inactive
+  "vacancy_offers": [
+    "Vale alimentação",
+    "PLR"
+  ],
+  "vacancy_skills": [
+    "MongoDB",
+    "NodeJS",
+    "PHP 7",
+    "VueJS",
+    "Docker"
+  ],
+  "job_image": "http://your.domain/uploads/foto_padrao.jpg",
+  "location": "anywhere",
+  "establishment": {
+    "id": "1",
+    "name": "Your Company",
+    "neighbor": "Any",
+    "zipcode": "13560-002",
+    "address": "Avenida São Carlos",
+    "city": "São Carlos",
+    "state": "SP",
+    "number": "01",
+    "complement": "",
+    "created_at": null,
+    "updated_at": null
+  }
+}

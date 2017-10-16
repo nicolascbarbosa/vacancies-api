@@ -1,0 +1,6 @@
+Implementar um endpoint REST para as operações de Criação, Obtenção, 
+Atualização e Deleção de Vagas de Trabalho.
+
+Os parâmetros das vagas de trabalho devem ser definidos por você e uma explicação sobre a 
+motivação de cada campo deve ser apresentada (na documentação do código ou no readme do 
+repositório git).
