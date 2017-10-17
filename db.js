@@ -1,11 +1,15 @@
-const fs = require('fs');
-const path = require('path');
 const Sequelize = require('sequelize');
+
+// const Model = ;
+// const vacancyModel = 
 
 let db = null;
 
 module.exports = app => {
-  
+
+
+  console.log('oie');
+
   if(db) return db;
 
   const config = app.libs.config;
@@ -16,11 +20,13 @@ module.exports = app => {
     config.params
   );
 
-  db = {
-    sequelize, 
-    Sequelize, 
-    models: {}
-  };
-
+  db = {};
+  db.models = {};
+  
+  db.Sequelize = Sequelize;  
+  db.sequelize = sequelize;
+  db.models.estabilishment = require('./models/estabilishment.js')(sequelize, Sequelize);
+  db.models.vacancy = require('./models/vacancy.js')(sequelize, Sequelize);
+  
   return db;
 }

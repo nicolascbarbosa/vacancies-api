@@ -1,18 +1,17 @@
 module.exports = (sequelize, DataType) => {
-  const Tasks = sequelize.define(
-    'Vacancies', 
+  const Vacancy = sequelize.define(
+    'Vacancy', 
     {
       id: {
-        type: DataType.UUID,
+        type: DataType.UUIDV4,
         primaryKey: true, 
-        defaultValue: DataTypes.UUIDV4,
+        defaultValue: DataType.UUIDV4,
         allowNull: false
       },
-      created_at: {
-        type: DataType.DATE,
+      estabilishment_id: {
+        type: DataType.UUIDV4,
         allowNull: false
       },
-      updated_at: DataType.DATE,
       payment_amount: DataType.FLOAT,
       payment_extra: DataType.STRING,
       journey: DataType.STRING,
@@ -20,8 +19,8 @@ module.exports = (sequelize, DataType) => {
         type: DataType.ENUM,
         values: ['active', 'inactive']
       },
-      vacancy_offers: DataType.ARRAY,
-      vacancy_skills: DataType.ARRAY,
+      vacancy_offers: DataType.STRING,
+      vacancy_skills: DataType.STRING,
       job_image: DataType.STRING,
       location: DataType.STRING,
     },
@@ -29,5 +28,5 @@ module.exports = (sequelize, DataType) => {
       underscored: true
     }
   );
-  return Tasks;
+  return Vacancy;
 } 

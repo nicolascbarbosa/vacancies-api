@@ -1,18 +1,13 @@
 module.exports = (sequelize, DataType) => {
-  const Tasks = sequelize.define(
+  const Estabilishment = sequelize.define(
     'Estabilishment', 
     {
       id: {
-        type: DataType.UUID,
+        type: DataType.UUIDV4,
         primaryKey: true, 
-        defaultValue: DataTypes.UUIDV4,
+        defaultValue: DataType.UUIDV4,
         allowNull: false
       },
-      created_at: {
-        type: DataType.DATE,
-        allowNull: false
-      },
-      updated_at: DataType.DATE,
       name: DataType.STRING,
       neighbor: DataType.STRING,
       zipcode: DataType.STRING,
@@ -26,5 +21,5 @@ module.exports = (sequelize, DataType) => {
       underscored: true
     }
   );
-  return Tasks;
+  return Estabilishment;
 } 
