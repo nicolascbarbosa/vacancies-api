@@ -1,0 +1,731 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Vacancies-API",
+		"_postman_id": "9fb3d2f3-7bc8-7f6c-d54e-77552a8d737f",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/vacancy",
+			"request": {
+				"url": "http://localhost:3000/vacancy",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "estabilishment_id",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "payment_amount",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "payment_extra",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "journey",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "active",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "vacancy_offers",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "vacancy_skills",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "job_image",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/vacancy",
+			"request": {
+				"url": "http://localhost:3000/vacancy/67a9186b-8e4f-44a4-8d29-d472ce49064c",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "estabilishment_id",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "payment_amount",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "payment_extra",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "journey",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "active",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "vacancy_offers",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "vacancy_skills",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "job_image",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/vacancy",
+			"request": {
+				"url": "http://localhost:3000/vacancy",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "estabilishment_id",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "payment_amount",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "payment_extra",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "journey",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "active",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "vacancy_offers",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "vacancy_skills",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "job_image",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/vacancy",
+			"request": {
+				"url": "http://localhost:3000/vacancy/67a9186b-8e4f-44a4-8d29-d472ce49064c",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "estabilishment_id",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "payment_amount",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "payment_extra",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "journey",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "active",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "vacancy_offers",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "vacancy_skills",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "job_image",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/vacancy",
+			"request": {
+				"url": "http://localhost:3000/vacancy/67a9186b-8e4f-44a4-8d29-d472ce49064c",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "estabilishment_id",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "payment_amount",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "payment_extra",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "journey",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "active",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "vacancy_offers",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "vacancy_skills",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "job_image",
+							"value": "",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/estabilishment",
+			"request": {
+				"url": "http://localhost:3000/estabilishment",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Empresa 01",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "neighbor",
+							"value": "Bairro 01",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "zipcode",
+							"value": "14010180",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "Rua Sete de Setembro",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "Ribeirão Preto",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "state",
+							"value": "SP",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "number",
+							"value": "1075",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "complement",
+							"value": "Condominio Cartier Tower",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/estabilishment",
+			"request": {
+				"url": "http://localhost:3000/estabilishment",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Empresa 01",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "neighbor",
+							"value": "Bairro 01",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "zipcode",
+							"value": "14010180",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "Rua Sete de Setembro",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "Ribeirão Preto",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "state",
+							"value": "SP",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "number",
+							"value": "1075",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "complement",
+							"value": "Condominio Cartier Tower",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/estabilishment",
+			"request": {
+				"url": "http://localhost:3000/estabilishment/67a9186b-8e4f-44a4-8d29-d472ce49064c",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Empresa 01",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "neighbor",
+							"value": "Bairro 01",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "zipcode",
+							"value": "14010180",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "Rua Sete de Setembro",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "Ribeirão Preto",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "state",
+							"value": "SP",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "number",
+							"value": "1075",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "complement",
+							"value": "Condominio Cartier Tower",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/estabilishment",
+			"request": {
+				"url": "http://localhost:3000/estabilishment/67a9186b-8e4f-44a4-8d29-d472ce49064c",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Empresa 01",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "neighbor",
+							"value": "Bairro 01",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "zipcode",
+							"value": "14010180",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "Rua Sete de Setembro",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "Ribeirão Preto",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "state",
+							"value": "SP",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "number",
+							"value": "1075",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "complement",
+							"value": "Condominio Cartier Tower",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/estabilishment",
+			"request": {
+				"url": "http://localhost:3000/estabilishment/67a9186b-8e4f-44a4-8d29-d472ce49064c",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Empresa 01",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "neighbor",
+							"value": "Bairro 01",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "zipcode",
+							"value": "14010180",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "Rua Sete de Setembro",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "Ribeirão Preto",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "state",
+							"value": "SP",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "number",
+							"value": "1075",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "complement",
+							"value": "Condominio Cartier Tower",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

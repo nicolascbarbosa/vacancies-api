@@ -6,10 +6,6 @@ const Sequelize = require('sequelize');
 let db = null;
 
 module.exports = app => {
-
-
-  console.log('oie');
-
   if(db) return db;
 
   const config = app.libs.config;
